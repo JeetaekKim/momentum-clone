@@ -1,0 +1,111 @@
+body {
+  color: #2c3e50;
+  transition: color 0.5s, ease-in-out;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1000%;
+  color: ivory;
+  margin-bottom: 25px;
+}
+
+input {
+  background: transparent;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 5px solid ivory;
+  text-align: center;
+  color: ivory;
+}
+
+form > #inputName {
+  font-size: xx-large;
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+
+form > #inputToDo {
+  font-size: x-large;
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+
+input::placeholder {
+  color: ivory;
+  font-family: sans-serif;
+}
+
+.js-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#js-weather {
+  background-color: white;
+  display: flex;
+  opacity: 0.5;
+  padding: 0px 5px;
+  color: tomato;
+  font-family: sans-serif;
+  font-weight: 1000;
+}
+
+.js-weatherInfo {
+  margin-top: 15px;
+}
+
+.form,
+.greetings {
+  display: none;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 1000;
+
+  color: ivory;
+  margin-top: 5px;
+  margin-bottom: 200px;
+}
+
+.js-toDoForm {
+  text-align: center;
+}
+
+.js-toDoList {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blanchedalmond;
+  font-size: large;
+  font-family: sans-serif;
+  font-variant: small-caps;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
