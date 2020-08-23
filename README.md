@@ -1,2 +1,2 @@
 # momentum-clone
- momentum-clone
+ vanilla js
